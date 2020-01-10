@@ -1,0 +1,18 @@
+@import "../../index";
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 70px;
+
+  background-color: $color4;
+  color: $color1;
+
+  .header__title {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+  }
+}

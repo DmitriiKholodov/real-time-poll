@@ -1,0 +1,3 @@
+#!/bin/bash
+
+cd src/components && mkdir "$1" && cd "$1" && ls && touch index.tsx && touch index.scss
